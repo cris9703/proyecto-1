@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+   height: 100vh;
+}
+header{
+    padding: 20PX 80PX;
+    display:flex;
+    justify-content: space-between  ;
+}
+header ul{
+    display: flex;
+    gap: 30px;
+
+}
+
+header ul li{
+    list-style: none;
+    
+
+}
+a{
+    text-decoration: none;
+    color: #252525;
+}
+
+a:hover{
+    color: #5f9ea0;
+}
+
+header .div-izq h1{
+    color: #252525;
+}
+header .div-izq h1 span{
+    color: #5f9ea0;
+}
+main{
+    padding: 0px 120px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div.info.tex-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.info .text-container h2 span{
+    color:#5f9ea0;
+}
+.div-info .btn-container button{
+    width: 125px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.div-info .btn-container #btn-contact{
+    background-color: #5f9ea0;
+    transition: .2s;
+}
+.div-info .btn-container #btn-contact:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+.div-info .btn-container #btn-conoce{
+    transition: .2s;
+}
+.div-info .btn-container #btn-conoce:hover{
+    opacity: .9;
+    cursor: pointer;
+    background-color: rgba(202, 187, 187, 0.555);
+}
+
+
+.div-image picture img{
+    width: 600px;
+}
